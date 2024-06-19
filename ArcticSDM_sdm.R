@@ -7,14 +7,14 @@ library(flexsdm)
 library(e1071)
 library(pROC)
 library(patchwork)
-source("Script/functions.R")
+source("functions/functions.R")
 
 {
   wd        <- "/Volumes/projects/bioing/data/ArcticSDM/"
   gbif_data <- "/Volumes/projects/bioing/data/ArcticSDM_data/"
   map_data  <- "~/Documents/ArtcticSDM_data/"
-  env_data  <- "/Volumes/projects/bioing/data/ArcticSDM/environment/CHELSA data 5 km/Modern/"
-  out_wd    <- "/Volumes/projects/p_ecohealth/Arctic_SDM/Results/"
+  env_data  <- "/Volumes/GeoDatasets/ArcticSDM/data/Modern/"
+  out_wd    <- "/Volumes/GeoDatasets/ArcticSDM/Results/"
 }
 {
 #   wd        <- "/bioing/data/ArcticSDM/"
